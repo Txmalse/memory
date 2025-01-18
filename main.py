@@ -6,7 +6,7 @@ app = QApplication([])
 
 from main_window import *
 from menu_window import *
-img_1 = 'images/img_1'
+
 class Question:
     def __init__(self, question, answer, wrong_answer1, wrong_answer2, wrong_answer3):
         self.question = question
